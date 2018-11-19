@@ -33,8 +33,9 @@
     * Graph Implementation
     * React Project - CMS
 
-**Week 8** - Graph Challenges, Sorting Lecture
+**Week 8** 
 
+* Graph Challenges
 * Sorting Algorithms
 * Authentication, Authorization, Security
 * Weekend
@@ -42,7 +43,8 @@
     * React Project - Bookstore
 
 **Week 9** 
-
+* React Native
+* Other JS Frameworks
 * Sorting Challenges
 * Interview Practice
 * Exam Prep
