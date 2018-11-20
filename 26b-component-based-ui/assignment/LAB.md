@@ -26,3 +26,7 @@ Create a counter application using React
     * Might things change when the counter is > 0 or < 0?
     * Where would the buttons look best?
     * Can you make the number "pop"
+
+### Submission Instructions
+* Upload the completed README.md, with diagram to your Code Sandbox
+* Submit a link to your Application running at Code Sandbox

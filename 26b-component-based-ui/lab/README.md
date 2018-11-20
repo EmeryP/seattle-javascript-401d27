@@ -12,6 +12,7 @@
 * [front-end](http://xyz.com)
 
 ### Modules
+
 #### `modulename.js`
 ##### Exported Values and Methods
 
@@ -20,6 +21,7 @@ Usage Notes or examples
 
 ###### `bar(array) -> array`
 Usage Notes or examples
+
 
 ### Setup
 #### `.env` requirements
@@ -37,3 +39,6 @@ Usage Notes or examples
 * How do you run tests?
 * What assertions were made?
 * What assertions need to be / should be made?
+
+#### UML
+Link to an image of the UML for your application and response to events

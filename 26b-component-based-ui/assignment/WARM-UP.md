@@ -38,3 +38,7 @@ console.log(newStuff);
 console.log(state);
 console.log(newState);
 ```
+
+
+### Submission Instructions
+Report in canvas with a link to your Repl.it page or Gist along with a report of how long this assignment took you to complete

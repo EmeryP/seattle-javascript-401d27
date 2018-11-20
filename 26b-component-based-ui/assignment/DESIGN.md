@@ -8,8 +8,8 @@ During your build-outs of React components, you'll be pulling from and adding to
 
 ### Requirements
 * Create a new repository called "sass-design" in your github account
-* Create the beginnings of your design by scaffolding out the core system
+* Create the beginnings of your design by scaffolding out the core system using a `$rootColor` variable and nested declarations
   * design.scss
-    * includes: reset.scss
-    * includes: variables.scss
-    * includes: mixins.scss
+
+### Submission Instructions
+Report in canvas with a link to the PR for this branch.  You may merge it to master after your submission is turned in.
