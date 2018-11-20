@@ -17,8 +17,6 @@ Wiki Entry Ideas:
 
 ## Skim
 * [sass](https://sass-lang.com/)
-## Watch
-* [title](link)
 
 ## Bookmark
 * [sass meister](http://www.sassmeister.com)
