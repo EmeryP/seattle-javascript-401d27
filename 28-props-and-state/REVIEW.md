@@ -1,7 +1,7 @@
 ![cf](http://i.imgur.com/7v5ASc8.png) Daily Review
 ==================================================
 
-**In addition changing the values of `state` properties what does** [getState()](https://css-tricks.com/understanding-react-setstate/) **do?**
+**In addition changing the values of `state` properties what does** [setState()](https://css-tricks.com/understanding-react-setstate/) **do?**
 
 ---
 
