@@ -41,7 +41,7 @@ import Form from 'react-jsonschema-form';
   }
 
   // Create the form with valid JSON Schema Object and some display rules (optional) in {uiSchema}
-  
+
   <Form
     schema={this.state.schema}
     uiSchema={uiSchema}
