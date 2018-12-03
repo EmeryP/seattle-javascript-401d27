@@ -7,7 +7,7 @@
 
 ## Assignment
 ### Refactor A Star Wars Lookup App
-* Fork [this sandbox](https://codesandbox.io/s/l2305mlzq7)
+* Fork [this sandbox](https://codesandbox.io/s/l7n0rwv0ym)
 * Convert the current react component state to use a Redux Store
   * Create a store
   * Connect to it, create it, provide from the index
