@@ -7,6 +7,8 @@
 * Break it down to a non-arrow function
 * Explain how this works with thunk middlware (below)
 
+https://repl.it/@johncokos/Redux-Thunk-Middleware-Demo
+
 ```
 
 // actions.js
