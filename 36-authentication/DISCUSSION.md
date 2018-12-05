@@ -15,7 +15,7 @@ Wiki Entry Ideas:
 
 ## Bookmark
 * [react-cookies component](https://www.npmjs.com/package/react-cookies)
-* [react-cookie component](https://www.npmjs.com/package/react-cookie)
+* [react-cookie library](https://www.npmjs.com/package/react-cookie)
 
 
 
