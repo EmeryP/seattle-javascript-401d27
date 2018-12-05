@@ -1,41 +1,29 @@
-![CF](http://i.imgur.com/7v5ASc8.png) LAB - Authentication
-==========================================================
+![cf](http://i.imgur.com/7v5ASc8.png) OAuth
+===========================================
 
 ## Before you begin
-* Fork [this sandbox](https://codesandbox.io/s/1rp021q45q)
-* Install and start the API server (found in the class repository) for local end to end testing
+* You'll need to initialize this lab folder as a new node module, install your dependencies, setup your npm script commands, and pull in your config files
+* You've been provided a server code with the authentication middleware, models and routes scaffolded in. There are some potential bugs and missing logic.
+* Work with a partner!
 
-## Implement the `<Login />` component
-This basic component should show/hide a login form based your login status. It should be able to communicate with the API server's signin process as well as an OAuth provider.
+## Submission Instructions
+  * Follow the instructions in the "Lab Instructions" documentation in the reference folder of the class repository
 
+## Assignment
 ### Requirements
-* Draw a form that takes username and password
-* On Submit, issues a `POST` request to the API server's `/signin` route
-* Ensure that the server responds properly on a good and bad login
-  * A good login should return a header with the token as well as raw text
-  * A bad login should return an error from the server
-* Implement a link that spawns your OAuth login process
-* In both cases, on a good login, set logged in state to `true`
-* Implement a Logout link that toggles state
-* When logged in, show the logout link and hide the form
-* When logged out, hide the logout link and show the form
+- Your instructor will assign you a (not-Google) OAuth provider to integrate with. Sites such as Yahoo, Github, Facebook, and AWS all have OAuth mechanisms that work almost exactly like Google.
 
-## Implement the `<LoginContext />` context API Wrapper
-This feature will extend the basic login by using the Context API to publish the login state globally.
+This is a paired lab that will have you integrating OAuth with any provider.
 
-### Requirements
-* Once you have the raw login forms created and working, it's time to use that to persist the users' login status
-* Create a provider that publishes into context:
-  * Login Status
-  * Token Data
-  * Login Method
-  * Logout Method
-* Wrap the application in your `<LoginContext />`
-* Marry context and the component, by calling the context's login and logout methods from the login component.
-* Take care to add/delete the cookies and manage your state appropriately based on logged in and logged out state.
+#### backend
+* create an account/app/credential on your assigned OAuth Provider
+ * configure oauth credentials to support a client app on `http://localhost`
+ * configure oauth credentials to support a server redirect uri to `http://localhost:3000/oauth`
+* create a backend route `GET /oauth` for handling oauth redirects
 
-### Testing
-* tests that ensure the list module functions correctly with error-check parameters
+#### frontend
+* create an index.html with an anchor tag pointing to the google authorization page
+* configure the query string with correct key value pairs
 
-##  Documentation
-Complete the README.md file included in the lab folder
+#### Documentation
+Write a description of the project in your README.md, including detailed instructions for how to build your app. In your frontend README.md add a code block with your frontend .env vars, and in your backend README.md add a code block with your backend .env vars.
