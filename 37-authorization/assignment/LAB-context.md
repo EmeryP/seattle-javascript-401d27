@@ -1,41 +1,24 @@
-![CF](http://i.imgur.com/7v5ASc8.png) LAB - Authentication
-==========================================================
+![CF](http://i.imgur.com/7v5ASc8.png) LAB - Context and Hooks
+=============================================================
 
 ## Before you begin
-* Fork [this sandbox](https://codesandbox.io/s/1rp021q45q)
-* Install and start the API server (found in the class repository) for local end to end testing
+* Start with a new react app, created at Code Sandbox or locally with create-react-app
 
-## Implement the `<Login />` component
-This basic component should show/hide a login form based your login status. It should be able to communicate with the API server's signin process as well as an OAuth provider.
-
-### Requirements
-* Draw a form that takes username and password
-* On Submit, issues a `POST` request to the API server's `/signin` route
-* Ensure that the server responds properly on a good and bad login
-  * A good login should return a header with the token as well as raw text
-  * A bad login should return an error from the server
-* Implement a link that spawns your OAuth login process
-* In both cases, on a good login, set logged in state to `true`
-* Implement a Logout link that toggles state
-* When logged in, show the logout link and hide the form
-* When logged out, hide the logout link and show the form
-
-## Implement the `<LoginContext />` context API Wrapper
-This feature will extend the basic login by using the Context API to publish the login state globally.
+## Implement a Context Provider and Consumer
+Create a React application that wraps the entire `<App/>` with a context provider, created using Context API. Then, create multiple components that act as consumers to your context, using it in various ways.
 
 ### Requirements
-* Once you have the raw login forms created and working, it's time to use that to persist the users' login status
-* Create a provider that publishes into context:
-  * Login Status
-  * Token Data
-  * Login Method
-  * Logout Method
-* Wrap the application in your `<LoginContext />`
-* Marry context and the component, by calling the context's login and logout methods from the login component.
-* Take care to add/delete the cookies and manage your state appropriately based on logged in and logged out state.
+* Create a GenericContext Provider component, which exposes 2 bits of state and functions that can change them.
+* Wrap your entire app in that `.Provider` so that all child components can optionally subscribe to it as consumers.
+* Create child components (even nested ones) that register as a `.Consumer` to the provided context.
+* Change bits of state by calling functions from the provider and render parts of states within the components.
+  * Can one component issue a function call to the provider that changes the context for all other components?
+  * What if they are nested?
 
 ### Testing
-* tests that ensure the list module functions correctly with error-check parameters
+* Do a deep mount of the app, and set tests to make assertions on the child components that consume context from the Provider.
+  * Can they see context?
+  * Can they interact via published functions?
 
 ##  Documentation
 Complete the README.md file included in the lab folder
