@@ -3,7 +3,9 @@
 
 
 ## Before you begin
-* Fork [this sandbox](https://codesandbox.io/s/j32q2y3ko5)
+* Fork [this sandbox](https://codesandbox.io/s/j32q2y3ko5) and complete your work in that fork.
+* Reference: `<Login />` and `<Auth />` implementation for use in wiring up your code.
+  * You'll want do download this so that you can use the `auth` folder/components in your lab.
 
 ## Implement Login and Authorization into an existing application
 
@@ -17,8 +19,6 @@
   * Logged In Users with 'create' permissions can create new records
 
 ### Notes
-* The API server that's wired up is at https://javascript-401-api.herokuapp.com
-* You will 
 * You may not alter the functionality of the existing application components.
 * You may only grant access using RBAC
 * The server has the following user accounts (username:password) that you can use to login as a user with varying permissions
