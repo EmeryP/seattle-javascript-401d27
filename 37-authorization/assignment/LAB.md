@@ -4,7 +4,7 @@
 
 ## Before you begin
 * Fork [this sandbox](https://codesandbox.io/s/j32q2y3ko5) and complete your work in that fork.
-* Reference: `<Login />` and `<Auth />` implementation for use in wiring up your code.
+* Reference: [`<Login />` and `<Auth />` implementation](https://codesandbox.io/s/q359203jmq) for use in wiring up your code.
   * You'll want do download this so that you can use the `auth` folder/components in your lab.
 
 ## Implement Login and Authorization into an existing application
