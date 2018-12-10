@@ -1,7 +1,6 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB -  `<Login />` and `<Auth />`
 =================================================
 
-
 ## Before you begin
 * Fork [this sandbox](https://codesandbox.io/s/j32q2y3ko5) and complete your work in that fork.
 * Reference: [`<Login />` and `<Auth />` implementation](https://codesandbox.io/s/q359203jmq) for use in wiring up your code.
