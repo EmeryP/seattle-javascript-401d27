@@ -1,5 +1,5 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Reading: React Native - Advanced
-======================================================================
+![cf](http://i.imgur.com/7v5ASc8.png) Reading: Socket.io
+========================================================
 
 Below is a collection of resources of varying types and lengths which describe the topics for the upcoming lecture.  As you go through the readings each day, you'll find that certain sources work better for your reading and learning style. Focus on those, but also branch out and consume the material in different forms.
 
@@ -11,16 +11,13 @@ Wiki Entry Ideas:
 * Notes in outline form
 
 ## Read
-* [introduction to react native deployments](https://medium.com/react-native-training/understanding-react-native-deployments-6e54157920b7)
-* [react native deployment checklist](https://medium.com/the-react-native-log/checklist-to-deploy-react-native-to-production-47157f8f85ed)
-* [react native device specific coding](https://facebook.github.io/react-native/docs/platform-specific-code)
-
-## Skim
-* [react native at aws](https://aws.amazon.com/mobile/AWS-Amplify-landing-react-native/?trk=sm_a131L000005ixNSQAY&sc_medium=PAC-CSI-P|PS-GO|Non-Brand|Desktop|PA|Mobile%20Services|Amplify|US|EN|Text&s_kwcid=AL!4422!3!309006911200!p!!g!!react%20native&ef_id=EAIaIQobChMIssDZv73_3gIVvCCtBh0reA1vEAAYASAAEgKXZvD_BwE:G:s)
+* [socket.io + react](https://medium.com/dailyjs/combining-react-with-socket-io-for-real-time-goodness-d26168429a34)
+* [socket.io with react and express](https://www.valentinog.com/blog/socket-io-node-js-react/)
 
 ## Bookmark
-* [apple developer account](https://developer.apple.com/)
-* [google developer account](https://play.google.com/apps/publish/)
+* [socket.io docs](https://socket.io/)
+* [socket.io client library](https://www.npmjs.com/package/socket.io-client)
+* [socket.io react library](https://www.npmjs.com/package/socket.io-react)
 
 
 
